@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EkPehelAnantTakFoundation</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/logo.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<script>
+    function numCounter(tagId,maxCount,speed){
+    var initialNumber = 0;
+    function counter(){
+        document.getElementById(tagId).innerHTML = initialNumber;
+        ++initialNumber;
+    }
+    var counterDelay = setInterval(counter,speed);
+    function totalTime(){
+        clearInterval(counterDelay);
+    }
+    var totalPeriod = speed * (maxCount);  
+    setTimeout(totalTime, totalPeriod);
+}
+
+numCounter("Projects",44,100);
+numCounter("Clients",12,400);
+numCounter("Partners",436,10);
+numCounter("contributions",436,10);
+
+    </script>
+    
+    
+    
+    <script>
+    
+    
+    $(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				arrows: false,
+				dots: false,
+					pauseOnHover: false,
+					responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 2
+					}
+				}]
+			});
+		});
+    </script>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Delicious - v4.6.0
+  * Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+      
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+          <h1><a href="index.html">Ek <span>Pehel</span> Anant Tak Foundation</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#events">Missions</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Team</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+         
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#book-a-table" class="book-a-table-btn scrollto">DONATE</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class=" carousel-item active" style="background: url(assets/img/bg-01.jpeg); background-size: cover" >
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">A Life  Not Lived For <span>Others</span> is Not a Life</h2>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">OUR MISSION</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">DONATE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background: url(assets/img/bg-2.jpeg);background-size: cover">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">We Only Have What We <span>Give</span></h2>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">OUR MISSIONS</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">DONATE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background: url(assets/img/bg-33.png);background-size: cover">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">No One Has Ever Become <span>Poor</span> By Giving</h2>
+                
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">OUR MISSIONS</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">DONATE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/logo.jpg");'>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3>Ek  Pehel  Anant  Tak<strong> - Foundation </strong></h3>
+              <p class="fst-italic">
+                Envisions to grow as an idea across regions,economies and countries using urban discard as a tool to alleviate poverty and enhance the dignity of the poor in the country.Address basic but neglected issues of the poor by involving them in evolving their own solutions with dignity and urban material as reward.
+              </p>
+            
+              <ul>
+                <li><i class="bx bx-check-double"></i> Foundation was formed in 2019 by Anant Mittal, together with his friends and brother Utkarsh Mittal. Highlighting education and health as a metaphor for basic but ignored needs of economically weaker people.</li>
+                <li><i class="bx bx-check-double"></i> Anant started EK PEHEL ANANT TAK foundation to bring education and health into the development agenda as something important to work on. Anant Mittal, Founder of EK PEHEL ANANT TAK foundation is the head of the organization which is governed by four members..</li>
+                <li><i class="bx bx-check-double"></i> The organization does not believe in a lot of hierarchical layers so everyone is team EK PEHEL ANANT TAK Foundation.</li>
+              </ul>
+          
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+        
+    </section><!-- End About Section -->
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+	
+      
+    <!-- ======= Whu Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Joining Our Mission Is the Most <span>Impactful</span> Way To Give</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box">
+              <span>01</span>
+              <h4>Learn how you make a change in their lives through our reports</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>02</span>
+              <h4>Every beneficiary you support is under the care of Nonprofits</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>03</span>
+              <h4>Your choice to give will make a Long-Lasting impact</h4>
+            </div>
+          </div>
+
+        </div>
+    
+    
+    </div>
+    </section><!-- End Whu Us Section -->
+      
+
+    <!-- ======= Menu Section ======= --
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Check our tasty <span>Menu</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Show All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Lobster Bisque</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Bread barrel</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Crab Cake</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Caesar Selections</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Greek Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Spinach Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Lobster Roll</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Check our <span>Guiding Principles</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item ">
+                <a class="nav-link  fst-italic" data-bs-toggle="tab" href="#tab-1" style="font-family:monospace;">OUR PASSION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fst-italic" data-bs-toggle="tab" href="#tab-2" style="font-family: monospace;"> OUR MISSION</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link fst-italic" data-bs-toggle="tab" href="#tab-3" style="font-family: monospace;"> OUR VISION</a>
+              </li>
+                 <li class="nav-item ">
+                <a class="nav-link fst-italic" data-bs-toggle="tab" href="#tab-4" style="font-family: monospace;"> OUR VALUES</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Our Passion</h3>
+                    <p class="fst-italic">We believe in creating difference in the lives of people in need. Creating "Passion for Learning". Giving a respectful life to "Not so Privileged People" with complete Gratitude of  what we have.</p>
+                    
+	
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/logo.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Our Mission</h3>
+                    <p class="fst-italic">Our mission is to create the largest human support chain in India, open 1000 education, health and food centres by 2030 across the country. To work towards creating a better India which provides basic health, education and empowerment to every citizen.  To be a Knowledge/ Execution Partner of Schools, NGOs, Corporates, and Government agencies for development programmes across India.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/logo.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Our Vision</h3>
+                    <p class="fst-italic">Our vision is to built a community where no one dies due to shortage of health related facilities, a world where everyone gets quality education without worrying about expenses, a healthy, happy, secure, and a respectful world.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/logo.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Our Values</h3>
+                    <p class="fst-italic">We are a NPO, and Proud of that. We believe in transparency and work towards building trust, togetherness and collaboration. We give our 100%.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/logo.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Some Of Our <span>Essential</span> Missions</h2>
+        </div>
+
+        <div class="events-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/education.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Education For All</h3>
+                    <h5>It’s time to reconsider education.</h5>
+                  <p class="fst-italic">
+                    Today, 32 million Indian children of age up to 13 years have never attended any school, the majority of them belonging to the socially disadvantaged class.
+                  </p>
+                  <ul>
+                      <p>
+                          So how we can provide education to maximum children living in rural / urban areas in less amount and by proving facilities similar to that of private school? </p>
+                      
+                    <li><i class="bi bi-check-circle"></i> We can’t control the increasing population. Fortunately, we do not have to—we have to open school in each and every rural/urban area which will not only provide quality education but also employment to many educated unemployed people around the country 
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/water.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Water, Sanitation and Hygiene</h3>
+                  <p class="fst-italic">
+                    Water supports not just the needs of humans, but also that of crops and animals. However, the availability of water in a region by itself does not make it viable for consumption unless it is treated and made safe for drinking. I
+                  </p>
+                  <ul>
+                      <p>
+its access and usage depend upon several factors such as the installation of water purification systems, presence of water taps in households and functional water pumps. For conserving water and preventing it from contamination, communities need to be aware of safe and desired WASH habits, including the use of toilets. </p>
+                      
+                    <li><i class="bi bi-check-circle"></i> In order to address the challenges of water scarcity and water contamination, and to contain the risks related to improper sanitation, our ngo has started working to implement the following initiatives under their Integrated Drinking Water and Sanitation Programme, while deploying innovative and affordable technology.
+</a>
+</li>
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/digital.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Digital Transformation</h3>
+                  <p class="fst-italic">
+                     Increasing mobile penetration by a mere 10 per cent will increase per capita GDP in developing countries by 0.81 per cent. Growing mobile phone penetration in rural regions will lead to the next wave of growth in the adoption of digital technology.
+                  </p>
+                  <ul>
+                      <p>
+                          The opportunity is ripe for designing early-level interventions to help rural communities discover the power of the digital medium and the internet in a structured and guided manner. However, in order to achieve this, traditional societal barriers that women face, concerning exposure to technology and handling of gadgets, have to be overcome</p>
+                      
+                    <li><i class="bi bi-check-circle"></i> Under the goal of digital literacy, we provide guided online experiences that help users discover and mine information that is most useful and relevant to their life – information that will eventually decrease the current information gap faced in the region. 
+
+</li>
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+              
+              
+              <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/migration.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Migration and Urban Habitat
+</h3>
+                  <p class="fst-italic">
+                    The initiatives under the  migration portfolio are aimed at helping migrants face the challenges of migration. 
+                  </p>
+                  <ul>
+                      <p>
+                          This is achieved by linking them to various social security and financial services, and health and sanitation facilities, which in turn eases the stress they face due to residential, occupational and social vulnerabilities.</p>
+                      
+                    <li><i class="bi bi-check-circle"></i> Our vision is to support the development of migrant communities by introducing sustainable and scalable solutions to achieve large-scale impact
+</li>
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+              
+              <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/social.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Social Justice and Inclusion
+</h3>
+                  <p class="fst-italic">
+                     A robust and responsive justice delivery system is an imperative for a country’s development. When justice is delayed or not served, victims are left with little hope that things will change. Changes within the justice system are complicated, systemic and interlinked and require critical attention and interventions. 
+                  </p>
+                  <ul>
+                      <p>
+                          We would be spearheading social change in the criminal justice and juvenile justice systems in India by focusing on addressing the needs of the most marginalised sections of society. 
+</p>
+                      
+                    <li><i class="bi bi-check-circle"></i> We work to bring about social change in some of the most vulnerable sections of community and social justice is a key aspect of this. The trend of increasing violence against women and children is a major concern. 
+</li>
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+              
+              <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/environment.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Environment and Energy
+</h3>
+                  
+                  <ul>
+                      <p>
+                          The energy programmes are designed with the objective to:
+ </p>
+                      
+                    <li><i class="bi bi-check-circle"></i>Address the nation’s challenge of providing power on demand to the most underserved communities, and satisfy the energy needs of the rural community.
+
+</li>
+                      
+                      <li><i class="bi bi-check-circle"></i>Provide rural households with clean cooking energy to overcome health and environmental hazards caused by using bio-fuels.
+
+</li>
+                       <li><i class="bi bi-check-circle"></i>Empower rural entrepreneurs for providing last-mile energy services, besides skilling them to create needs.
+
+
+</li>
+                       <li><i class="bi bi-check-circle"></i> Conduct extensive research to develop technologies for affordable and sustainable systems, which increase income and reduce drudgery.
+</li>
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+              
+              
+              <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/agriculture.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Agriculture
+</h3>
+                  <p class="fst-italic">
+                    Agriculture is  the backbone of the Indian economy as 70% of India’s population depends directly or indirectly on agriculture for livelihood According to the World Bank, a focus on three key areas will impact the country’s overall development and the improved welfare of its rural poor
+                  </p>
+                  <ul>
+                     
+                    <li><i class="bi bi-check-circle"></i>Raise agricultural productivity per unit of land through crop diversification.
+</li>
+                      
+                      <li><i class="bi bi-check-circle"></i>Reduce rural poverty through policies that benefit tribal communities, poor and marginalised communities, women and scheduled castes
+
+</li>
+                      <li><i class="bi bi-check-circle"></i>Ensure food security through a productive, diversified agricultural sector
+
+
+</li>
+                      
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+              
+              
+              <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/financee.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Financial Inclusion</h3>
+                  <p class="fst-italic">
+                    Financial Inclusion (FI) is the pursuit of making financial services accessible at affordable costs and it strives to address constraints that exclude people from participating in the financial sector
+                    The core objectives of financial inclusion initiatives are:
+                  </p>
+                  <ul>
+                     
+                    <li><i class="bi bi-check-circle"></i>To make formal sector credit accessible to the beneficiaries in a fair and transparent way
+</li>
+                    
+                      <li><i class="bi bi-check-circle"></i>Promoting community led models for insuring against unforeseen risks
+</li>
+                    
+                      
+                      <li><i class="bi bi-check-circle"></i> Ensuring financial awareness and education of the communities.
+
+</li>
+                    
+                      <div class="price">
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Join Our Team</a>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Contribute</a>
+
+                  </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+              
+              
+              
+              <!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Want To Join <span>Us ? </span></h2>
+        </div>
+
+<form action="https://formcarry.com/s/nHzsvA9Hb_U" method="POST" accept-charset="UTF-8" class=php-email-form>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-12 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Your Address" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            
+            
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Our photos <span>Gallery </span></h2>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/demo.png"3 class="gallery-lightbox">
+                <img src="assets/img/demo.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/02.png" class="gallery-lightbox">
+                <img src="assets/img/02.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/03.png" class="gallery-lightbox">
+                <img src="assets/img/03.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/04.png" class="gallery-lightbox">
+                <img src="assets/img/04.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/05.png" class="gallery-lightbox">
+                <img src="assets/img/05.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/demo.png" class="gallery-lightbox">
+                <img src="assets/img/demo.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/demo.png" class="gallery-lightbox">
+                <img src="assets/img/demo.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/demo.png" class="gallery-lightbox">
+                <img src="assets/img/demo.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+<br>
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Awesome <span>Team</span></h2>
+          
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/ANANT'S.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>PAWAN KUMAR MITTAL</h4>
+                <span>Director</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/anant.JPG" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>ANANT MITTAL</h4>
+                <span>Founder &AMP; CEO</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/UTKARSH.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>UTKARSH MITTAL</h4>
+                <span>Managing Director</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+
+        </div>
+          <br>
+          
+          <div class="row">
+
+          
+              
+            <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/AKSHITA.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>AKSHITA MUDGAL</h4>
+                <span>Chief Operating Officer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/NIKITA.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>NIKITA GUPTA</h4>
+                <span>Strategic Advisor</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/TANVEE.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DR.TANVEE NAGPAL</h4>
+                <span>Health Administrative Advisor</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/RAGHAV_KAPOOR.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Raghav Kapoor</h4>
+                <span>Technical Advisor | Founder Skill Regex</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+              
+          
+
+          
+
+        </div>
+
+      </div>
+    </section>
+      
+      
+      
+      <!-- End Chefs Section -->
+      <section id="why-us" class="why-us">
+      <div class="container">
+
+        
+<BR><BR><BR><BR>
+    
+    <div class="section-title">
+          <h2>Giving Us You Can <span>Trust</span> </h2>
+        </div>
+
+        <div class="row">
+      <div class=" col-lg-3 mt-3 mt-lg-0">
+        <div class="box">
+          <h4><span id="Partners">100</span>+</h4>
+          <h4>Raised For NonProfits
+
+</h4>
+        </div>
+      </div>
+             <div class=" col-lg-3 mt-3 mt-lg-0">
+        <div class="box">
+          <h4><span id="butions">120</span>+</h4>
+          <h4>Donors Have Contributed to Causes
+
+</h4>
+        </div>
+      </div>
+      <div class=" col-lg-3 mt-3 mt-lg-0">
+        <div class="box">
+          <h4><span id="Projects">0</span>+</h4>
+          <h4>Lives Impacted
+
+</h4>
+        </div>
+      </div>
+      <div class=" col-lg-3 mt-3 mt-lg-0">
+        <div class="box">
+          <h4><span id="Clients">0</span>+</h4>
+          <h4>Trusted Corporates and Brands</h4>
+        </div>
+      </div> 
+    </div>
+    </BR>
+    </BR></BR></BR></div>
+    </section>
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our <span>Clients </span></h2>
+          
+        </div>
+
+         
+          
+          <div class="row">
+
+          
+              
+            <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/4779A024-7199-47EC-9DCF-805D344D7DE9__1_-removebg-preview.png" class="img-fluid" alt=""></div>
+              
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/LOGOSKILL.png" class="img-fluid" alt=""></div>
+              
+            </div>
+          </div>
+              <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/subharti.jpeg" class="img-fluid" alt=""></div>
+              
+            </div>
+          </div>
+        
+        
+              
+          
+
+          
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Contact</span> Us</h2>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3491.1662221982715!2d77.72910061507683!3d28.952793882292546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c64a5d7313f09%3A0x5498e7a5b94172a2!2sINOX!5e0!3m2!1sen!2sin!4v1637244738369!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+      </div>
+        
+
+      <div class="container mt-5">
+
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>S2S Square<br>Garh Road, Meerut</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Open Hours:</h4>
+              <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@example.com<br>contact@example.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+            </div>
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Ek Pehel Anant Tak Foundation</h3>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Ek Pehel Anant Tak Foundation</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
+        Designed by <a href="https://www.skillregex.in">Skill Regex</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
