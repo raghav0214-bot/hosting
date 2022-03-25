@@ -1657,7 +1657,7 @@ body {
 a:link,
 a:active,
 a:visited{
-  color:rgba(255,255,255,1);
+  color:lightgrey;
 }
 
 a:hover{
